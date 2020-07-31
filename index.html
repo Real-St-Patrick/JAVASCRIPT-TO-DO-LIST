@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Works To-Do</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-5.12.1-web/css/all.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>WORK TO-DOS</h1>
+        </div>
+        <div class="txt">
+            <p class="brown">Enter text in the input field to add items to yor list(max 10 characters).</p>
+            <p class="green">Click the item to mark it as complete.</p>
+            <p class="grey">Click the "&cross;;" to remove the item from your list.</p>
+        </div>
+        <form id="to-do-feild">
+            <input type="text" maxlength="30" name="new-item" class="new-item" placeholder="New-item.........">
+            <button class="btn"><i id="pencil" class="fa fa-pencil-alt"></i></button>
+        </form>
+        <div class="to-dos">
+            <ul class="items col-12 offset-0 col-sm-8 offset-sm-2 "></ul>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
